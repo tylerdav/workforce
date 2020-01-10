@@ -139,35 +139,35 @@
     "employeeCustomers": [
         {
             "id": 1,
-            "customerId": 4,
+            "customerId": 1,
             "employeeId": 1,
             "rate": "$100/hr",
             "contractLength": "6 weeks"
         },
         {
             "id": 2,
-            "customerId": 3,
+            "customerId": 2,
             "employeeId": 2,
             "rate": "$111/hr",
             "contractLength": "60 weeks"
         },
         {
             "id": 3,
-            "customerId": 2,
+            "customerId": 3,
             "employeeId": 3,
             "rate": "$85/hr",
             "contractLength": "40 weeks"
         },
         {
             "id": 4,
-            "customerId": 5,
+            "customerId": 4,
             "employeeId": 4,
             "rate": "$60/hr",
             "contractLength": "10 weeks"
         },
         {
             "id": 5,
-            "customerId": 1,
+            "customerId": 5,
             "employeeId": 5,
             "rate": "$90/hr",
             "contractLength": "34 weeks"
