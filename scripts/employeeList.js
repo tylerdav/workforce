@@ -32,6 +32,11 @@ export const EmployeeList = () => {
             // Find the related customer for each relationship
             const assignedCustomers = relationships.map(rel => {
                 const foundCustomers = customers.find(customer => customer.id === rel.id)
+                // debugger
+
+                foundCustomers.rate = rel.rate
+                foundCustomers.contractLength = rel.contractLength
+
                 return foundCustomers
             })
 

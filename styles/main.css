@@ -1,3 +1,24 @@
 body {
-    background-color: grey;
+    background-color: rgb(85, 85, 85);
 }
+
+.customer, .employee {
+    border: 2px solid darkred;
+    background-color: rgb(36, 36, 36);
+    color: ivory;
+    padding: 15px;
+    max-width: 250px;
+    margin: 10px;
+}
+
+.employee__computer, .customer__employee {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    justify-content: space-evenly;
+}
+
+h2 {
+    color: ivory;
+}
+

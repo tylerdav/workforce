@@ -20,7 +20,17 @@ const Employee = (employees, computers, departments, locations,customers) => {
                     ${
                         customers.map(customer => {
                             // debugger
-                            return `<li>${customer.businessName}</li>`
+                            return `<li>${customer.businessName}</li>
+                            <br>
+                            <div>
+                            Hourly Rate: ${customer.rate}
+                            </div>
+                            <br>
+                            <div>
+                            Contract Length: ${customer.contractLength}
+                            </div>
+                            
+                            `
                         }).join("")
                     }
                 </ol>
