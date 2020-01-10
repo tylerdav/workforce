@@ -1,0 +1,152 @@
+{
+    "computers": [
+        {
+            "id": 1,
+            "model": "Macbook Pro",
+            "year": 2013
+        },
+        {
+            "id": 2,
+            "model": "ASUS VivoBook",
+            "year": 2014
+        },
+        {
+            "id": 3,
+            "model": "Microsoft Surface",
+            "year": 2015
+        },
+        {
+            "id": 4,
+            "model": "Dell XPS 15",
+            "year": 2016
+        },
+        {
+            "id": 5,
+            "model": "Macbook Air",
+            "year": 2017
+        }
+    ],
+    "employees": [
+        {
+            "id": 1,
+            "firstName": "Rainu",
+            "lastName": "Ittycheriah",
+            "age": "24",
+            "computerId": 5,
+            "departmentId": 1,
+            "locationId": 1
+        },
+        {
+            "id": 2,
+            "firstName": "Jerry",
+            "lastName": "Smith",
+            "age": "29",
+            "computerId": 3,
+            "departmentId": 2,
+            "locationId": 2
+        },
+        {
+            "id": 3,
+            "firstName": "Bird",
+            "lastName": "Person",
+            "age": "27",
+            "computerId": 1,
+            "departmentId": 3,
+            "locationId": 2
+        },
+        {
+            "id": 4,
+            "firstName": "Rick",
+            "lastName": "Sanchez",
+            "age": "70",
+            "computerId": 2,
+            "departmentId": 4,
+            "locationId": 3
+        },
+        {
+            "id": 5,
+            "firstName": "Morty",
+            "lastName": "smith",
+            "age": "14",
+            "computerId": 4,
+            "departmentId": 5,
+            "locationId": 3
+        }
+    ],
+    "departments": [
+        {
+            "id": 1,
+            "name": "Hot Sauce department"
+        },
+        {
+            "id": 2,
+            "name": "Car department"
+        },
+        {
+            "id": 3,
+            "name": "Donut department"
+        },
+        {
+            "id": 4,
+            "name": "Dog department"
+        },
+        {
+            "id": 5,
+            "name": "Computer department"
+        }
+    ],
+    "locations": [
+        {
+            "id": 1,
+            "city": "Nashville"
+        },
+        {
+            "id": 2,
+            "city": "Atlanta"
+        },
+        {
+            "id": 3,
+            "city": "Memphis"
+        }
+    ],
+    "customers": [
+        {
+            "id": 1,
+            "businessName": "Juniper Distribution"
+        },
+        {
+            "id": 2,
+            "businessName": "red inc."
+        },
+        {
+            "id": 3,
+            "businessName": "blue inc."
+        },
+        {
+            "id": 4,
+            "businessName": "green inc."
+        }
+    ],
+    "employeeCustomers": [
+        {
+            "id": 1,
+            "customerId": 4,
+            "employeeId": 1
+        },
+        {
+            "id": 2,
+            "customerId": 3,
+            "employeeId": 2
+        },
+        {
+            "id": 3,
+            "customerId": 2,
+            "employeeId": 3
+        },
+        {
+            "id": 4,
+            "customerId": 1,
+            "employeeId": 4
+        }
+    ]
+}
